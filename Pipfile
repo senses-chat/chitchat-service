@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+paddlepaddle = "==2.2.2"
+paddlenlp = "==2.2.4"
+fastapi = "==0.74.1"
+uvicorn = {version = "==0.17.5", extras = ["standard"]}
+sentencepiece = "==0.1.96"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.8"
