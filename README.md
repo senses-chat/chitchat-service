@@ -31,4 +31,4 @@ pipenv run uvicorn main:app --reload
 
 ## License
 
-Apache License 2.0 since plato-mini is also under the same license.
+[Apache License 2.0](./LICENSE) since plato-mini is also under the same license.
